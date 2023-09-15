@@ -6,6 +6,8 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>Creative Code</title>
+        @include('components.favicon')
+
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
